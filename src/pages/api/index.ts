@@ -5,7 +5,7 @@ type Data = {
 };
 
 const handler = (req: NextApiRequest, res: NextApiResponse<Data>) => {
-    res.status(200).json({ version: "1.0.2" });
+    res.status(200).json({ version: "1.0.3" });
 };
 
 export default handler;
